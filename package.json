@@ -1,0 +1,20 @@
+{
+  "name": "groweasy-import-platform",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "dev": "concurrently \"npm run dev --workspace=web\" \"npm run dev --workspace=api\"",
+    "build": "npm run build --workspace=web",
+    "start": "concurrently \"npm run start --workspace=web\" \"npm run start --workspace=api\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  },
+  "dependencies": {
+    "@google/genai": "^2.11.0",
+    "dotenv": "^17.4.2"
+  }
+}

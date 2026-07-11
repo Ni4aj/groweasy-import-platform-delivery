@@ -1,0 +1,101 @@
+Full Name,Email,Mobile,City,State,Country,Lead Status,Lead Owner,Notes,Source
+Lead 1,lead1@example.com,9885436893,Kochi,Kerala,India,Follow Up,Rahul,Test lead 1,Website
+Lead 2,lead2@example.com,9889730248,Pune,Maharashtra,India,Qualified,Amit,Test lead 2,Website
+Lead 3,lead3@example.com,9830512626,Mumbai,Maharashtra,India,New,Priya,Test lead 3,Google Ads
+Lead 4,lead4@example.com,9868842506,Hyderabad,Telangana,India,New,Priya,Test lead 4,Website
+Lead 5,lead5@example.com,9831355241,Bangalore,Karnataka,India,Qualified,Rahul,Test lead 5,Referral
+Lead 6,lead6@example.com,9855302832,Mumbai,Maharashtra,India,Contacted,Priya,Test lead 6,Google Ads
+Lead 7,lead7@example.com,9860379179,Bangalore,Karnataka,India,Qualified,Amit,Test lead 7,Excel Import
+Lead 8,lead8@example.com,9814625070,Ahmedabad,Gujarat,India,Follow Up,Neha,Test lead 8,Excel Import
+Lead 9,lead9@example.com,9887351068,Jaipur,Rajasthan,India,Qualified,Amit,Test lead 9,Facebook Ads
+Lead 10,lead10@example.com,9815889937,Jaipur,Rajasthan,India,Follow Up,Neha,Test lead 10,Excel Import
+Lead 11,lead11@example.com,9896691903,Jaipur,Rajasthan,India,Qualified,Neha,Test lead 11,Excel Import
+Lead 12,lead12@example.com,9851502965,Pune,Maharashtra,India,Follow Up,Rahul,Test lead 12,Facebook Ads
+Lead 13,lead13@example.com,9836540278,Mumbai,Maharashtra,India,Follow Up,Neha,Test lead 13,Excel Import
+Lead 14,lead14@example.com,9853049791,Delhi,Delhi,India,Contacted,Rahul,Test lead 14,Excel Import
+Lead 15,lead15@example.com,9880151401,Mumbai,Maharashtra,India,New,Neha,Test lead 15,Facebook Ads
+Lead 16,lead16@example.com,9852209280,Chennai,Tamil Nadu,India,Contacted,Amit,Test lead 16,Referral
+Lead 17,lead17@example.com,9896943160,Pune,Maharashtra,India,Qualified,Rahul,Test lead 17,Website
+Lead 18,lead18@example.com,9862265708,Delhi,Delhi,India,Follow Up,Priya,Test lead 18,Google Ads
+Lead 19,lead19@example.com,9852598652,Hyderabad,Telangana,India,New,Amit,Test lead 19,Website
+Lead 20,lead20@example.com,9867156226,Mumbai,Maharashtra,India,Contacted,Rahul,Test lead 20,Website
+Lead 21,lead21@example.com,9812392368,Delhi,Delhi,India,Contacted,Rahul,Test lead 21,Website
+Lead 22,lead22@example.com,9873795974,Pune,Maharashtra,India,New,Amit,Test lead 22,Referral
+Lead 23,lead23@example.com,9847580236,Chennai,Tamil Nadu,India,New,Amit,Test lead 23,Website
+Lead 24,lead24@example.com,9880020087,Kolkata,West Bengal,India,Qualified,Priya,Test lead 24,Referral
+Lead 25,lead25@example.com,9853491159,Kolkata,West Bengal,India,Follow Up,Amit,Test lead 25,Facebook Ads
+Lead 26,lead26@example.com,9837394824,Bangalore,Karnataka,India,Contacted,Neha,Test lead 26,Website
+Lead 27,lead27@example.com,9864116243,Jaipur,Rajasthan,India,Contacted,Priya,Test lead 27,Referral
+Lead 28,lead28@example.com,9883909593,Ahmedabad,Gujarat,India,New,Rahul,Test lead 28,Facebook Ads
+Lead 29,lead29@example.com,9813710606,Pune,Maharashtra,India,Contacted,Amit,Test lead 29,Google Ads
+Lead 30,lead30@example.com,9814538425,Jaipur,Rajasthan,India,Contacted,Priya,Test lead 30,Website
+Lead 31,lead31@example.com,9862272743,Mumbai,Maharashtra,India,Qualified,Neha,Test lead 31,Google Ads
+Lead 32,lead32@example.com,9842607524,Hyderabad,Telangana,India,Contacted,Amit,Test lead 32,Google Ads
+Lead 33,lead33@example.com,9874795940,Mumbai,Maharashtra,India,Follow Up,Amit,Test lead 33,Website
+Lead 34,lead34@example.com,9877697088,Pune,Maharashtra,India,Qualified,Rahul,Test lead 34,Google Ads
+Lead 35,lead35@example.com,9872993437,Kolkata,West Bengal,India,Follow Up,Neha,Test lead 35,Excel Import
+Lead 36,lead36@example.com,9822164592,Mumbai,Maharashtra,India,Follow Up,Priya,Test lead 36,Facebook Ads
+Lead 37,lead37@example.com,9878458471,Delhi,Delhi,India,Qualified,Priya,Test lead 37,Referral
+Lead 38,lead38@example.com,9877520546,Kochi,Kerala,India,Contacted,Rahul,Test lead 38,Facebook Ads
+Lead 39,lead39@example.com,9890538430,Pune,Maharashtra,India,Contacted,Rahul,Test lead 39,Website
+Lead 40,lead40@example.com,9817038210,Kolkata,West Bengal,India,Qualified,Amit,Test lead 40,Website
+Lead 41,lead41@example.com,9826024625,Delhi,Delhi,India,Follow Up,Priya,Test lead 41,Google Ads
+Lead 42,lead42@example.com,9875938644,Delhi,Delhi,India,New,Priya,Test lead 42,Facebook Ads
+Lead 43,lead43@example.com,9810732318,Kochi,Kerala,India,Follow Up,Priya,Test lead 43,Facebook Ads
+Lead 44,lead44@example.com,9820155424,Chennai,Tamil Nadu,India,Contacted,Rahul,Test lead 44,Google Ads
+Lead 45,lead45@example.com,9826197968,Bangalore,Karnataka,India,Qualified,Rahul,Test lead 45,Facebook Ads
+Lead 46,lead46@example.com,9819754182,Pune,Maharashtra,India,Contacted,Neha,Test lead 46,Referral
+Lead 47,lead47@example.com,9860228698,Jaipur,Rajasthan,India,Contacted,Priya,Test lead 47,Google Ads
+Lead 48,lead48@example.com,9866666936,Kochi,Kerala,India,New,Neha,Test lead 48,Referral
+Lead 49,lead49@example.com,9824656735,Delhi,Delhi,India,New,Neha,Test lead 49,Google Ads
+Lead 50,lead50@example.com,9899710010,Delhi,Delhi,India,New,Rahul,Test lead 50,Website
+Lead 51,lead51@example.com,9820600412,Delhi,Delhi,India,Contacted,Neha,Test lead 51,Website
+Lead 52,lead52@example.com,9829565848,Pune,Maharashtra,India,Qualified,Rahul,Test lead 52,Facebook Ads
+Lead 53,lead53@example.com,9854733673,Ahmedabad,Gujarat,India,Qualified,Amit,Test lead 53,Google Ads
+Lead 54,lead54@example.com,9872072139,Kolkata,West Bengal,India,New,Rahul,Test lead 54,Website
+Lead 55,lead55@example.com,9841981147,Jaipur,Rajasthan,India,New,Amit,Test lead 55,Excel Import
+Lead 56,lead56@example.com,9838638850,Kolkata,West Bengal,India,New,Priya,Test lead 56,Website
+Lead 57,lead57@example.com,9850696869,Mumbai,Maharashtra,India,New,Neha,Test lead 57,Facebook Ads
+Lead 58,lead58@example.com,9848788542,Jaipur,Rajasthan,India,Qualified,Amit,Test lead 58,Website
+Lead 59,lead59@example.com,9844244479,Bangalore,Karnataka,India,New,Rahul,Test lead 59,Google Ads
+Lead 60,lead60@example.com,9824743529,Kolkata,West Bengal,India,Contacted,Amit,Test lead 60,Referral
+Lead 61,lead61@example.com,9822779241,Mumbai,Maharashtra,India,Follow Up,Neha,Test lead 61,Website
+Lead 62,lead62@example.com,9855247760,Kolkata,West Bengal,India,Follow Up,Amit,Test lead 62,Referral
+Lead 63,lead63@example.com,9878628167,Jaipur,Rajasthan,India,Follow Up,Neha,Test lead 63,Google Ads
+Lead 64,lead64@example.com,9853900463,Bangalore,Karnataka,India,Qualified,Priya,Test lead 64,Excel Import
+Lead 65,lead65@example.com,9873584054,Mumbai,Maharashtra,India,Follow Up,Amit,Test lead 65,Referral
+Lead 66,lead66@example.com,9892008342,Jaipur,Rajasthan,India,Qualified,Priya,Test lead 66,Facebook Ads
+Lead 67,lead67@example.com,9825231702,Bangalore,Karnataka,India,Qualified,Neha,Test lead 67,Facebook Ads
+Lead 68,lead68@example.com,9867104987,Ahmedabad,Gujarat,India,Qualified,Priya,Test lead 68,Excel Import
+Lead 69,lead69@example.com,9848895884,Bangalore,Karnataka,India,Follow Up,Amit,Test lead 69,Google Ads
+Lead 70,lead70@example.com,9886561755,Ahmedabad,Gujarat,India,Follow Up,Neha,Test lead 70,Website
+Lead 71,lead71@example.com,9870240258,Chennai,Tamil Nadu,India,New,Rahul,Test lead 71,Google Ads
+Lead 72,lead72@example.com,9853848175,Delhi,Delhi,India,Follow Up,Amit,Test lead 72,Facebook Ads
+Lead 73,lead73@example.com,9890626452,Kolkata,West Bengal,India,New,Priya,Test lead 73,Excel Import
+Lead 74,lead74@example.com,9818020154,Pune,Maharashtra,India,Contacted,Neha,Test lead 74,Excel Import
+Lead 75,lead75@example.com,9853447267,Kochi,Kerala,India,Qualified,Priya,Test lead 75,Referral
+Lead 76,lead76@example.com,9821930921,Ahmedabad,Gujarat,India,Contacted,Amit,Test lead 76,Excel Import
+Lead 77,lead77@example.com,9891974999,Bangalore,Karnataka,India,New,Rahul,Test lead 77,Google Ads
+Lead 78,lead78@example.com,9845506973,Ahmedabad,Gujarat,India,Contacted,Amit,Test lead 78,Excel Import
+Lead 79,lead79@example.com,9829532782,Pune,Maharashtra,India,Contacted,Neha,Test lead 79,Excel Import
+Lead 80,lead80@example.com,9889020944,Kolkata,West Bengal,India,Contacted,Priya,Test lead 80,Facebook Ads
+Lead 81,lead81@example.com,9831398190,Pune,Maharashtra,India,Contacted,Priya,Test lead 81,Facebook Ads
+Lead 82,lead82@example.com,9884939216,Pune,Maharashtra,India,New,Amit,Test lead 82,Excel Import
+Lead 83,lead83@example.com,9871630743,Hyderabad,Telangana,India,Follow Up,Rahul,Test lead 83,Referral
+Lead 84,lead84@example.com,9827294746,Hyderabad,Telangana,India,Follow Up,Rahul,Test lead 84,Excel Import
+Lead 85,lead85@example.com,9814880871,Hyderabad,Telangana,India,New,Priya,Test lead 85,Referral
+Lead 1,lead1@example.com,9885436893,Kolkata,West Bengal,India,Duplicate,Amit,Duplicate record,Duplicate Upload
+Lead 2,lead2@example.com,9889730248,Mumbai,Maharashtra,India,Duplicate,Neha,Duplicate record,Duplicate Upload
+Lead 3,lead3@example.com,9830512626,Chennai,Tamil Nadu,India,Duplicate,Neha,Duplicate record,Duplicate Upload
+Lead 4,lead4@example.com,9868842506,Bangalore,Karnataka,India,Duplicate,Priya,Duplicate record,Duplicate Upload
+Lead 5,lead5@example.com,9831355241,Jaipur,Rajasthan,India,Duplicate,Neha,Duplicate record,Duplicate Upload
+Lead 6,lead6@example.com,9855302832,Ahmedabad,Gujarat,India,Duplicate,Rahul,Duplicate record,Duplicate Upload
+Lead 7,lead7@example.com,9860379179,Mumbai,Maharashtra,India,Duplicate,Priya,Duplicate record,Duplicate Upload
+Lead 8,lead8@example.com,9814625070,Jaipur,Rajasthan,India,Duplicate,Neha,Duplicate record,Duplicate Upload
+Lead 9,lead9@example.com,9887351068,Kochi,Kerala,India,Duplicate,Priya,Duplicate record,Duplicate Upload
+Lead 10,lead10@example.com,9815889937,Jaipur,Rajasthan,India,Duplicate,Rahul,Duplicate record,Duplicate Upload
+Invalid Lead 96,,,Kolkata,West Bengal,India,New,Priya,Missing email and mobile,Manual
+Invalid Lead 97,,,Pune,Maharashtra,India,New,Amit,Missing email and mobile,Manual
+Invalid Lead 98,,,Hyderabad,Telangana,India,New,Priya,Missing email and mobile,Manual
+Invalid Lead 99,,,Bangalore,Karnataka,India,New,Amit,Missing email and mobile,Manual
+Invalid Lead 100,,,Hyderabad,Telangana,India,New,Priya,Missing email and mobile,Manual
