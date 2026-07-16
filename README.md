@@ -1,10 +1,72 @@
 # GrowEasy Import Platform
 
-## Run locally
+An AI-powered CSV Import Platform that intelligently imports, validates, cleans, and previews CRM leads from any CSV format.
 
-1. Copy `.env.example` to `.env` and configure optional OpenAI credentials.
-2. Run `npm install` from this folder.
-3. Run `npm run dev`.
-4. Open `http://localhost:3000`.
+## 🚀 Live Demo
 
-The frontend is Next.js. The Express API validates CSV files, stores completed import runs locally for development, and uses deterministic mapping unless an OpenAI key is configured.
+### 🌐 Frontend
+https://groweasy-web-vqod.onrender.com
+
+### ⚙️ Backend API
+https://groweasy-api-v2.onrender.com
+
+### 📂 GitHub Repository
+https://github.com/Ni4aj/groweasy-import-platform-delivery
+
+---
+
+## ✨ Features
+
+- Upload CSV files
+- Intelligent column mapping
+- Lead validation
+- Duplicate detection
+- Preview before import
+- Download processed JSON
+- CRM-ready lead formatting
+
+---
+
+## 🛠 Tech Stack
+
+### Frontend
+
+- Next.js
+- React.js
+
+### Backend
+
+- Node.js
+- Express.js
+- Multer
+- CSV Parser
+
+---
+
+## 🚀 Run Locally
+
+```bash
+git clone https://github.com/Ni4aj/groweasy-import-platform-delivery.git
+
+cd groweasy-import-platform-delivery
+
+npm install
+
+npm run dev
+```
+
+---
+
+## 📁 Folder Structure
+
+```
+apps/
+├── api/
+└── web/
+```
+
+---
+
+## 👨‍💻 Author
+
+Niraj Thapa
