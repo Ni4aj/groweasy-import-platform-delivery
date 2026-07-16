@@ -7,7 +7,7 @@ import { fileURLToPath } from "url";
 import uploadRoutes from "./routes/upload.js";
 
 // --------------------------------------------
-// Load .env from project root
+// Load .env
 // --------------------------------------------
 
 const __filename = fileURLToPath(import.meta.url);
@@ -18,34 +18,41 @@ dotenv.config({
 });
 
 // --------------------------------------------
-// Verify .env loaded
+// Startup
 // --------------------------------------------
 
 console.log("=================================");
 console.log("GrowEasy Backend Starting...");
-console.log("Gemini API Key:", process.env.GEMINI_API_KEY);
 console.log("=================================");
-
-if (!process.env.GEMINI_API_KEY) {
-  console.warn("⚠️ WARNING: GEMINI_API_KEY is missing!");
-}
 
 const app = express();
 
 const PORT = process.env.PORT || 4000;
 
 // --------------------------------------------
-// Middleware
+// CORS Configuration
 // --------------------------------------------
+
+const allowedOrigins = [
+  "http://localhost:3000",
+  "http://localhost:3001",
+  "http://localhost:3002",
+  "http://localhost:3003",
+  "https://groweasy-web-vqod.onrender.com",
+];
 
 app.use(
   cors({
-    origin: [
-      "http://localhost:3000",
-      "http://localhost:3001",
-      "http://localhost:3002",
-      "http://localhost:3003",
-    ],
+    origin(origin, callback) {
+      // Allow requests with no origin (Postman, curl, Render health checks)
+      if (!origin) return callback(null, true);
+
+      if (allowedOrigins.includes(origin)) {
+        return callback(null, true);
+      }
+
+      return callback(new Error("Not allowed by CORS"));
+    },
     credentials: true,
   })
 );
@@ -91,5 +98,5 @@ app.use((err, req, res, next) => {
 // --------------------------------------------
 
 app.listen(PORT, () => {
-  console.log(`🚀 GrowEasy API running on http://localhost:${PORT}`);
+  console.log(`🚀 GrowEasy API running on port ${PORT}`);
 });
