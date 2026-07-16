@@ -26,9 +26,7 @@ export default function PreviewPage() {
     }
   }, [router]);
 
-  if (!result) {
-    return null;
-  }
+  if (!result) return null;
 
   const mappedFields = Object.values(result.mapping || {}).filter(Boolean).length;
   const totalFields = Object.keys(result.mapping || {}).length;
@@ -73,6 +71,8 @@ export default function PreviewPage() {
 
         <section className="content">
 
+          {/* Top Summary Cards */}
+
           <div className="summary">
 
             <article>
@@ -95,37 +95,55 @@ export default function PreviewPage() {
 
           </div>
 
+          {/* Summary Section */}
+
           <div className="columns">
 
-            <section className="card result">
+            <section className="card">
 
-              <div>
-                <h2>Import Summary</h2>
-
-                <p>
-                  {result.leads?.length ?? 0} valid records are ready for import.
-                </p>
-
-                <br />
-
-                <p>
-                  <strong>Skipped Rows:</strong> {result.skipped ?? 0}
-                </p>
-
-                <p>
-                  <strong>Mapped Fields:</strong> {mappedFields}/{totalFields}
-                </p>
-              </div>
-
-              <a
-                className="download"
-                href={`data:application/json;charset=utf-8,${encodeURIComponent(
-                  JSON.stringify(result.leads || [], null, 2)
-                )}`}
-                download="groweasy-leads.json"
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "space-between",
+                  alignItems: "flex-start",
+                  gap: "30px",
+                  flexWrap: "wrap",
+                }}
               >
-                Download JSON
-              </a>
+
+                <div style={{ flex: 1 }}>
+
+                  <h2>Import Summary</h2>
+
+                  <p
+                    style={{
+                      marginBottom: "18px",
+                    }}
+                  >
+                    {result.leads?.length ?? 0} valid records are ready for import.
+                  </p>
+
+                  <p>
+                    <strong>Skipped Rows:</strong> {result.skipped ?? 0}
+                  </p>
+
+                  <p>
+                    <strong>Mapped Fields:</strong> {mappedFields}/{totalFields}
+                  </p>
+
+                </div>
+
+                <a
+                  className="download"
+                  href={`data:application/json;charset=utf-8,${encodeURIComponent(
+                    JSON.stringify(result.leads || [], null, 2)
+                  )}`}
+                  download="groweasy-leads.json"
+                >
+                  Download JSON
+                </a>
+
+              </div>
 
             </section>
 
@@ -157,23 +175,28 @@ export default function PreviewPage() {
 
           </div>
 
+          {/* Preview Table */}
+
           <LeadPreviewTable
             leads={result.leads || []}
           />
 
+          {/* Bottom Buttons */}
+
           <div
             style={{
-              display: 'flex',
-              justifyContent: 'space-between',
-              marginTop: 30,
+              display: "flex",
+              justifyContent: "space-between",
+              alignItems: "center",
+              marginTop: "28px",
             }}
           >
 
             <button
               className="secondary"
               onClick={() => {
-                sessionStorage.removeItem('importResult');
-                router.push('/');
+                sessionStorage.removeItem("importResult");
+                router.push("/");
               }}
             >
               ← Back to Import

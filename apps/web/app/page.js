@@ -95,15 +95,6 @@ export default function Home() {
       </aside>
 
       <section className="main">
-        <header>
-          <div>
-            <strong>GrowEasy Import Studio</strong>
-            <small>CSV lead standardization</small>
-          </div>
-
-          <span className="limit">CSV · Max 5 MB</span>
-        </header>
-
         <section className="hero">
           <span className="eyebrow">✦ SMART LEAD INTAKE</span>
 
@@ -168,9 +159,7 @@ export default function Home() {
 
                 <i>↥</i>
 
-                <b>
-                  {file ? file.name : 'Drop your CSV file here'}
-                </b>
+                <b>{file ? file.name : 'Drop your CSV file here'}</b>
 
                 <span>
                   {file
@@ -234,6 +223,20 @@ export default function Home() {
             </aside>
           </div>
         </section>
+
+        <footer
+          style={{
+            textAlign: 'center',
+            padding: '28px 20px 36px',
+            color: '#66736d',
+            fontSize: '14px',
+            borderTop: '1px solid #dce5e0',
+            background: '#fff',
+            marginTop: '32px',
+          }}
+        >
+          © 2026 Niraj Thapa. All Rights Reserved.
+        </footer>
       </section>
     </main>
   );

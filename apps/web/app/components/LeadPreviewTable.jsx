@@ -2,8 +2,15 @@ export default function LeadPreviewTable({ leads = [] }) {
   if (!leads || leads.length === 0) {
     return (
       <section className="card result">
-        <h2>CSV Preview</h2>
-        <p>No valid leads found.</p>
+        <p
+          style={{
+            padding: "24px",
+            textAlign: "center",
+            color: "#6b7280",
+          }}
+        >
+          No valid leads found.
+        </p>
       </section>
     );
   }
@@ -12,34 +19,6 @@ export default function LeadPreviewTable({ leads = [] }) {
 
   return (
     <section className="card result">
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "space-between",
-          alignItems: "center",
-          marginBottom: 20,
-        }}
-      >
-        <div>
-          <h2>CSV Preview</h2>
-
-          <p>
-            Showing first <strong>{previewLeads.length}</strong> of{" "}
-            <strong>{leads.length}</strong> records
-          </p>
-        </div>
-
-        <a
-          className="download"
-          href={`data:application/json;charset=utf-8,${encodeURIComponent(
-            JSON.stringify(leads, null, 2)
-          )}`}
-          download="groweasy-leads.json"
-        >
-          Download JSON
-        </a>
-      </div>
-
       <div style={{ overflowX: "auto" }}>
         <table
           style={{
@@ -72,19 +51,6 @@ export default function LeadPreviewTable({ leads = [] }) {
           </tbody>
         </table>
       </div>
-
-      {leads.length > 10 && (
-        <p
-          style={{
-            marginTop: 20,
-            color: "#666",
-            fontSize: 14,
-          }}
-        >
-          Showing the first 10 records. Download the JSON file to view all{" "}
-          {leads.length} leads.
-        </p>
-      )}
     </section>
   );
 }
